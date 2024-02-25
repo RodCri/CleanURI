@@ -1,0 +1,49 @@
+.menuToggle .menuToggle__button {
+  background-color: transparent;
+  border: 0;
+}
+.menuToggle .menuToggle__button .button__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(gray);
+}
+.menuBar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 2rem 1.5rem;
+  margin: 0 5%;
+  width: 90%;
+  background-color: var(dark-violet);
+  border-radius: 0.75rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  color: white;
+}
+.menuBar .menuBar__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuBar .menuBar__divider {
+  border: 1px solid var(gray-opaque);
+}
+
+.menuBar .menuBar__login {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuBar .menuBar__login .menuBar__links {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  border-radius: 2rem;
+}
+.menuBar .menuBar__login .menuBar__links--colorful {
+  background-color: var(cyan);
+  &:hover {
+    background-color: var(cyan-opaque);
+  }
+}

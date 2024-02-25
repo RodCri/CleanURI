@@ -1,0 +1,36 @@
+.nav {
+  padding: 2.5rem 1.75rem 1.5rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: aqua;
+}
+.nav .nav__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav .nav__desktop {
+  display: none;
+  width: 100%;
+}
+
+.nav .nav__mobile {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .nav {
+    padding: 2.5rem 6rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .nav .nav__desktop {
+    display: flex;
+  }
+
+  .nav .nav__mobile {
+    display: none;
+  }
+}

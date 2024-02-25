@@ -1,0 +1,30 @@
+:root {
+  --cyan: hsl(180, 66%, 49%);
+  --cyan-opaque: hsl(180, 38%, 63%);
+  --dark-violet: hsl(257, 27%, 26%);
+  --red: hsl(0, 87%, 67%);
+  --gray: hsl(0, 0%, 75%);
+  --grayish-violet: rgb(158, 154, 167);
+  --gray-opaque: hsla(0, 0%, 75%, 0.25);
+  --very-dark-blue: hsl(255, 11%, 22%);
+  --very-dark-violet: hsl(260, 8%, 14%);
+  --font-size: 18px;
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+}
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+}
