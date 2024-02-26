@@ -10,7 +10,7 @@ export const DesktopMenu = () => {
       </nav>
       <div className={styles.menu__login}>
         <a className={styles.menu__option} href="/">Login</a>
-        <a className={[styles.menu__option, styles.menu__option__Colorful]} href="/">
+        <a className={styles.menu__option__Colorful} href="/">
           Sign Up
         </a>
       </div>

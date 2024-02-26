@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  background-color: aqua;
 }
 .nav .nav__logo {
   display: flex;

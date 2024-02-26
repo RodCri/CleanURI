@@ -11,22 +11,23 @@
   display: flex;
   gap: 1rem;
 }
-.menu .menu__nav .menu__option {
+.menu__option,
+.menu__option__Colorful {
   padding: 1rem;
   color: #9e9aa7;
   font-size: 1.8rem;
   font-weight: 700;
   border-radius: 2rem;
 }
-.menu .menu__nav .menu__option:hover {
-  color: var(dark-violet);
+.menu__option:hover {
+  color: var(--dark-violet);
 }
-.menu .menu__login .menu__option__Colorful {
-  background-color: var(cyan);
+.menu__option__Colorful {
+  background-color: var(--cyan);
   color: white;
   padding: 1rem 2rem;
 }
-.menu .menu__login .menu__option__Colorful:hover {
-  background-color: var(cyan-opaque);
+.menu__option__Colorful:hover {
+  background-color: var(--cyan-opaque);
   color: white;
 }

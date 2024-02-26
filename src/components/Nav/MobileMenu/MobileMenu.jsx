@@ -9,10 +9,10 @@ export const MobileMenu = () => {
   }
   return (
     <>
-      <div className="menuToggle">
-        <button className="menuToggle__button" onClick={openMenu}>
+      <div className={styles.menuToggle}>
+        <button className={styles.menuToggle__button} onClick={openMenu}>
           <img
-            className="button__icon"
+            className={styles.button__icon}
             src={menuIcon}
             alt="Menu Icon"
           />
@@ -28,7 +28,7 @@ export const MobileMenu = () => {
           <div className={styles.menuBar__divider} />
           <div className={styles.menuBar__login}>
             <button className={styles.menuBar__links}>Login</button>
-            <button className={[styles.menuBar__links, styles.menuBar__links__colorful]}>Sign Up</button>
+            <button className={styles.menuBar__links__colorful}>Sign Up</button>
           </div>
         </nav>
       )}
